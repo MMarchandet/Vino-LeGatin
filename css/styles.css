@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+.inicio{
+    width: 100%;
+    background: url(/imagenes/imagenPrincipal1.png);
+}
+
+.tituloInicio{
+    display: flex;
+    justify-content: center;
+    height: 761px;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.h1{
+    color: white;
+    font-size: 120px;
+    align-self: center;
+}
+
+.botonesInicio{
+    display: flex;
+    justify-content: center;
+    gap: 0 80px;
+    padding-bottom: 90px;
+}
+
+.boton1{
+    width: 203px;
+    height: 50px;
+    background: #99862A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+.parrafo{
+    font-size: 24px;
+    color: white;
+    margin-top: 40px;
+}
+
+.info{
+    background: #282828;
+    width: 100%;
+}
+
+.info2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.medioInfo{
+    margin: 80px 144px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: white;
+}
+
+.parrafoMedio{
+    font-size: 19px;
+    width: 73%;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+
+.historia{
+    background: #E6E3C4;
+    width: 100%;
+    padding: 0 122px;
+}
+
+.historia2{
+    padding: 80px 15px;
+}
+
+.historia3{
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    column-gap: 135px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.izquierdaHistoria{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.derechaHistoria{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+}
+
+.imgpeque{
+    display: flex;
+    column-gap: 30px;
+}
+
+.parrafoHistoria{
+    font-size: 19px;
+    width: 80%;
+    font-weight: 400;
+    line-height: 24px;
+    color: #343741;
+}
+
+.h2Historia{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #282828;
+}
+
+.parrafoContactanos{
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.nombreContactar{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    gap: 30px;
+}
+
+.input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 0.5rem 0.5rem;
+    color: white;
+}
+
+.boton-enviar{
+    width: 541px;
+    height: 50px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
