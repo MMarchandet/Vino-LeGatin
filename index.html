@@ -67,16 +67,20 @@
                         <h2 class="h2">Contáctanos</h2>
                         <p class="parrafoContactanos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum.</p>
 
-                        <form action="#">
+                        <form action="https://formsubmit.co/moisesincognito@gmail.com" method="POST">
                             <div class="nombreContactar">
-                                <input class="input" type="text" placeholder="Nombre">
-                                <input class="input" type="tel" placeholder="Telefono">
+                                <input class="input" type="text" name="nombre" placeholder="Nombre">
+                                <input class="input" type="email" name="email" placeholder="Email">
+
                             </div>
 
                             <div class="botones">
-                                <input class="input" type="text" placeholder="Nota">
-                                <button class="boton-enviar">Enviar Información</button>
+                                <input class="input" type="text" name="comentarios" placeholder="Nota">
+                                <button type="submit" class="boton-enviar">Enviar Información</button>
                             </div>
+
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+                            <input type="hidden" name="_captcha" value="false">
                             
                         </form>
                     </div>

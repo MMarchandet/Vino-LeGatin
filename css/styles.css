@@ -12,7 +12,7 @@
 
 .inicio{
     width: 100%;
-    background: url(/imagenes/imagenPrincipal1.png);
+    background: url(./imagenPrincipal1.png);
 }
 
 .tituloInicio{
@@ -35,6 +35,10 @@
     justify-content: center;
     gap: 0 80px;
     padding-bottom: 90px;
+}
+
+.boton1:hover{
+    cursor: pointer;
 }
 
 .boton1{
@@ -177,6 +181,10 @@
     line-height: 20px;
     color: white;
     text-transform: uppercase;
+}
+
+.boton-enviar:hover{
+    cursor: pointer;
 }
 
 .botones{
